@@ -4,7 +4,7 @@ session_start();// cette méthode sers principalement a stocker/recuperer les do
 // information pour se connecter a la base de donnée
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "#TpLinux#";
 $dbname = "testdata";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {

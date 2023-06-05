@@ -39,7 +39,7 @@
         <br><br>
         3 élèves et 3 enseignants (Identifiant:MotDePasse):
     </p>
-        <ul>
+    <ul>
         <li>eleve1:mdp1</li>
         <li>eleve2:mdp2</li>
         <li>eleve3:mdp3</li>
