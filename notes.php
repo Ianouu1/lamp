@@ -70,8 +70,8 @@ $conn->close();
     <table>
         <tr>
             <th>ID utilisateur</th>
-            <th>Nom du contrôle</th>
             <th>Matière</th>
+            <th>Nom du contrôle</th>
             <th>Note</th>
         </tr>
         <?php foreach ($notes as $note) : ?>
