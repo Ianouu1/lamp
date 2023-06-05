@@ -63,6 +63,17 @@ if (isset($_GET['logout'])) {
         </li>
     </ul>
     <h1>Page de Connexion</h1>
+    <p>
+        Voici les utilisateur :
+    </p>
+    <ul>
+        <li>eleve1:mdp1</li>
+        <li>eleve2:mdp2</li>
+        <li>eleve3:mdp3</li>
+        <li>enseignant1:profmath</li>
+        <li>enseignant2:profhistoire</li>
+        <li>enseignant3:proffrancais</li>
+    </ul>
     <?php
     // si la variable errorMessage existe (Si les identifiants sont incorrecte alors on affiche lerreur)
     if (isset($errorMessage)) {
